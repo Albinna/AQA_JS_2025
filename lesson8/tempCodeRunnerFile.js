@@ -1,4 +1,5 @@
-const numbers  = [10, 20, 30, 40, 50];
-const sum = numbers.reduce((accumulator, carrentValue) => accumulator + carrentValue, 0);
+const numbers = [1,10,14,2,4,5,43,34];
+const sortNumbers = [...numbers].sort((a,b) => a-b);
 
-console.log(sum);
+console.log('Original:', numbers);
+console.log('Sorted:', sortNumbers);
